@@ -1,0 +1,11 @@
+name: FriendPlugin
+version: '1.0.0'
+main: io.com.berryFore.friendPlugin.FriendPlugin
+api-version: '1.20'
+commands:
+  친구:
+    description: 친구 목록 GUI를 엽니다.
+    usage: /<command>
+  친구신청:
+    description: 친구 요청을 보냅니다.
+    usage: /<command> <닉네임>
